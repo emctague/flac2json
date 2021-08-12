@@ -52,8 +52,8 @@ void printj(const char *str, ...) {
         switch (*c) {
         case '%':
             for (const char *d = va_arg(args, char*); d && *d; d++) {
-                if (iscntrl(*d) || *d == '\\' || *d == '\"' || *d == '\'') {
-                    printf("\\%03o", *d);
+                if (iscntrl(*d) || *d == '\\' || *d == '\"') {
+                    printf("\\u%04X", *d);
                 } else {
                     putchar(*d);
                 }

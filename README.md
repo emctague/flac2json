@@ -26,7 +26,7 @@ FLAC2JSON reads the metadata fields from a .FLAC file and outputs them in JSON f
 		"copyright": [ "Copyright (C) 2021 Nooooooooobody" ],
 		"author": [ "John Author" ],
 		"composer": [ "Phillip De Composer Of De Music" ],
-		"lyrics": [ "I know a song that gets on everybody's nerves,\015\012everybody's nerves,\015\012everybody's nerves." ],
+		"lyrics": [ "I know a song that gets on everybody's nerves,\u000D\u000Aeverybody's nerves." ],
 		"replaygain_track_gain": [ "-10.10 dB" ],
 		"itunesadvisory": [ "1" ],
 		"barcode": [ "2030404010" ],
